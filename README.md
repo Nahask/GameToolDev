@@ -1,16 +1,17 @@
 # GameToolDev
+simple chat between two clients using c#
 
 Victor Pichon 
 student id : 15129081
 
 
 ## Problems
-New project are bigger and bigger, we have to devlopp a tool to communicate between all of the devloppers.
+New project are bigger and bigger, devloppers have more and more problems to communicate between them.
 
 ## Goal
-simple chat between two clients 
+We have to devlopp a tool to make the communication between all the devlopper easier.
+the tool should be able to transfere files and messages.
 
-using c#
 ## User Story
 All the devlopper team will use it in order to communicate
 
