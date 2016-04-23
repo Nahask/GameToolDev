@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Cube>
+    <size>2</size>
+    <posX>5</posX>
+    <posY>1</posY>
+    <posZ>9</posZ>
+    <color>red</color>
+  </Cube>
+  <Cube>
+    <size>2</size>
+    <posX>10</posX>
+    <posY>1</posY>
+    <posZ>1</posZ>
+    <color>green</color>
+  </Cube>
+  <Cube>
+    <size>2</size>
+    <posX>-10</posX>
+    <posY>1</posY>
+    <posZ>5</posZ>
+    <color>green</color>
+  </Cube>
+  <Cube>
+    <size>2</size>
+    <posX>0</posX>
+    <posY>1</posY>
+    <posZ>0</posZ>
+    <color>green</color>
+  </Cube>
+</Objects>
