@@ -22,6 +22,7 @@
     <ProjectGuid>{6BE49E5A-F91A-41A5-9DE0-7D335846D98F}</ProjectGuid>
     <RootNamespace>Term3D</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>Engine</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

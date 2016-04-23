@@ -2,13 +2,13 @@
 
 int main(int argc, char **argv)
 {
-	Init term3D("Term3D", 1024, 768);
-	if (term3D.windowInit() == false)
+	Init engine("Term3D", 1024, 768);
+	if (engine.windowInit() == false)
 		return -1;
-	if (term3D.GLInit() == false)
+	if (engine.GLInit() == false)
 		return -1;
 
-	term3D.mainLoop();
+	engine.mainLoop();
 
 	return 0;
 }
