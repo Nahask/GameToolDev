@@ -19,13 +19,27 @@
     <posX>-10</posX>
     <posY>1</posY>
     <posZ>5</posZ>
-    <color>green</color>
+    <color>yellow</color>
   </Cube>
   <Cube>
     <size>2</size>
     <posX>0</posX>
     <posY>1</posY>
     <posZ>0</posZ>
+    <color>purple</color>
+  </Cube>
+  <Cube>
+    <size>2</size>
+    <posX>15</posX>
+    <posY>1</posY>
+    <posZ>0</posZ>
+    <color>blue</color>
+  </Cube>
+  <Cube>
+    <size>2</size>
+    <posX>2</posX>
+    <posY>1</posY>
+    <posZ>8</posZ>
     <color>green</color>
   </Cube>
 </Objects>
