@@ -29,6 +29,9 @@ ObjectHandler::~ObjectHandler()
 
 void ObjectHandler::initObject()
 {
+
+
+
 	xml_document<> doc;
 	xml_node<> *root_node;
 
@@ -73,7 +76,7 @@ void ObjectHandler::initObject()
 		
 		cubes[i].setShaderFragment("Shaders/couleur3D.frag");	
 		cubes[i].setShaderVertex("Shaders/couleur3D.vert");
-	
+		cubes[i].initCube();
 
 		//objectList.push_back(cubes[0]);
 		objectList.push_back(cubes[i]);
@@ -88,10 +91,10 @@ void ObjectHandler::updateObject(glm::mat4 projection,glm::mat4 modelview)
 
 
 	modelview = tmp;
-	/*for (Cube test : objectList)
+	for (Cube test : objectList)
 	{
 		test.display(projection, modelview);
 		modelview = tmp;
-	}*/
+	}
 
 }
