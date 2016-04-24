@@ -2,7 +2,7 @@
 
 int main(int argc, char **argv)
 {
-	Init engine("Term3D", 1024, 768);
+	Init engine("Engine", 1024, 768);
 	if (engine.windowInit() == false)
 		return -1;
 	if (engine.GLInit() == false)
